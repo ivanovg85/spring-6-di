@@ -1,8 +1,11 @@
 package art.cookedincode.spring6di.services;
 
+import org.springframework.stereotype.Service;
+
 /**
  * Created by Georgi Ivanov
  */
+@Service
 public class GreetingServiceImpl implements GreetingService {
     @Override
     public String sayGreeting() {
